@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700italic);
+
+body { font-family: 'Noto Serif', serif; }
+a { color: #0c65a5; text-decoration: none; border-bottom: 1px solid; }
+h1 { font-weight: 700; font-size: 26px; font-style: italic; line-height: 160%; margin-bottom: 10px; }
+a:hover { color: black; }
+h1 a { border-bottom: 2px solid; }
+h2 { font-weight: 400; font-size: 17px; color: rgba(0,0,0,.5); line-height: 180%; }
+#feature-stories { width: 1000px; margin: 0 auto; }
+#hero-main { display: relative; background-color: black; float: right; display: block; width: 400px; height: 450px; padding: 50px; border: 1px solid #ccc; 
+  background-image: url('16924920618_16c0c9804c_z.jpg'); background-repeat: no-repeat; background-size: cover; }
+#hero-main h1 a { color: white !important; text-shadow: 2px 0px rgba(0,0,0,0.3); }
+#hero-main h2 { color: rgba(255,255,255,1) !important; text-shadow: 2px 1px rgba(0,0,0,0.3); }
+#lineup li { display: block; height: auto; width: 300px; border: 1px solid #ccc; list-style-type: none; margin: 35px;
+  padding: 40px; font-weight: 700; font-size: 19px; line-height: 160%;
+}
