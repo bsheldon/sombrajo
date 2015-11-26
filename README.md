@@ -1,5 +1,5 @@
 # Sombrajo
-> Sombrajo is an experimental, performant heatmap library for painting collections of dynamic web content.
+> Sombrajo is an experimental, high-performing heatmap library for painting collections of dynamic web content.
 
 ![sombrajo_heatmap](https://cloud.githubusercontent.com/assets/532350/11411614/a1af0e72-939f-11e5-8c40-fdd6f06ca696.jpg)
 
@@ -29,7 +29,7 @@ First, in a very simple case, each participating content element will have custo
 <script type="text/javascript"> var heatmap = new Sombrajo(); </script>
 ```
 
-When using more dynamic datasets, its also convenient to seed entry `id` for each entry in the DOM, then assign them explicit values as follows:
+When using more dynamic data sets, its also convenient to seed entry `id` for each entry in the DOM, then assign them explicit values as follows:
 
 ```html
 <div data-entry-id="1001"><a href="/story/1001.html">A great headline here</a></div>
@@ -80,7 +80,7 @@ Sombrajo allows configuring of the following settings when instantiating a new h
 > Sets / resets heatmap data, and repaints it where needed. Returns current collection details
 
 **refreshMap** (*entry_id_or_element = null, reset = false*)
-> Repaints heamtap if there are new elements present, or if reset flag set to true. Otherwise, if an element argument is passed, it will limit repainting to that id/element
+> Repaints heatmap if there are new elements present, or if reset flag set to true. Otherwise, if an element argument is passed, it will limit repainting to that id/element
 
 **getEntryValue** (*entry_id_or_element*)
 > Returns value for a particular entry in the heatmap collection
@@ -106,7 +106,7 @@ Sombrajo allows configuring of the following settings when instantiating a new h
 
 
 ## Browser Support
-**Note:** Shadow DOM spec is currently in-flux, thus Google Chrome and Opera are the only browsers to offically support the currrent spec by default. Firefox does support the Shadow DOM with the [webcomponents flag enabled](https://developer.mozilla.org/en-US/docs/Web/Web_Components#Enabling_Web_Components_in_Firefox). At this stage, this library is limited to use in these browsers. Check out some work that is being done on the [W3C Working Draft](http://w3c.github.io/webcomponents/spec/shadow/) to standardize this approach in short order across most major browsers.
+**Note:** Shadow DOM spec is currently in-flux, thus Google Chrome and Opera are the only browsers to officially support the current spec by default. Firefox does support the Shadow DOM with the [webcomponents flag enabled](https://developer.mozilla.org/en-US/docs/Web/Web_Components#Enabling_Web_Components_in_Firefox). At this stage, this library is limited to use in these browsers. Check out some work that is being done on the [W3C Working Draft](http://w3c.github.io/webcomponents/spec/shadow/) to standardize this approach in short order across most major browsers.
 
 ## Development
 
@@ -122,7 +122,7 @@ $ gulp test
 ```
 
 #### Contribute
-Several Gulp tasks are available for sane development. Please submit additonal test coverage / updated examples with any feature PR's, cheers!
+Several Gulp tasks are available for sane development. Please submit additional test coverage / updated examples with any feature PR's, cheers!
 
 ## Eh, what's with the name of this library?
-[Sombrajo](http://www.spanishdict.com/translate/sombrajo) (in Spanish) refers to a typical rustic awning that stilts above the ground, absorbing the sun's heat to keep everything cool in the shade below. Or, building a heatmap from the shadow DOM. See what I did there? 
+[Sombrajo](http://www.spanishdict.com/translate/sombrajo) (in Spanish) refers to a typical rustic awning that stilts above the ground, absorbing the sun's heat to keep everything cool in the shade below. Or, building a heatmap from the shadow DOM. See what I did there?
